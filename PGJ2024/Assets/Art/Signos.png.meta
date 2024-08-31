@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0079b39b6d6ea3f47b8147b60db9300d
+guid: c37496d2e96d77d48b5554136f3ef2af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,11 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barcoprefectura_0
+      name: Signos_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -124,18 +124,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d96fb020d852f44b9a90f33ef78bd1
-      internalID: 983741794
+      spriteID: 205dbc9f91338dd4aa08207297984530
+      internalID: -1306309040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_1
+      name: Signos_1
       rect:
         serializedVersion: 2
         x: 75
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -145,18 +145,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b15872516efa944eba06e3c08b8cdc8
-      internalID: 813536298
+      spriteID: db157733457baf64eb807bdbdb2ea053
+      internalID: -875474986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_2
+      name: Signos_2
       rect:
         serializedVersion: 2
         x: 150
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -166,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0da144accf7860f49891f101a547effb
-      internalID: -1544019285
+      spriteID: 9c487160d0902154bba94e6d7c03696f
+      internalID: -773801536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_3
+      name: Signos_3
       rect:
         serializedVersion: 2
         x: 225
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -187,18 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a8a1dca9c7cd6543aad1ebcfaf1211c
-      internalID: -1286074050
+      spriteID: faaa7269d4406fd4d869df03a5897974
+      internalID: -1894223419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_4
+      name: Signos_4
       rect:
         serializedVersion: 2
         x: 300
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -208,71 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a015a6f85e3c24ba70ceea448afbcd
-      internalID: -322400435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barcoprefectura_5
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 2
-        width: 75
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2ea5a54d977d6d4aa17f28a903b914a
-      internalID: -53539415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barcoprefectura_6
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 2
-        width: 75
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed023048aa7aec04cb951817e74241d0
-      internalID: 495422526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Barcoprefectura_7
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 2
-        width: 75
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc4a9030aa2dc83458ddb7b7bed532a5
-      internalID: 896595643
+      spriteID: 60e2f697eeb45bd4ea5df637c7a66c6c
+      internalID: -142664886
       vertices: []
       indices: 
       edges: []
@@ -288,14 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barcoprefectura_0: 983741794
-      Barcoprefectura_1: 813536298
-      Barcoprefectura_2: -1544019285
-      Barcoprefectura_3: -1286074050
-      Barcoprefectura_4: -322400435
-      Barcoprefectura_5: -53539415
-      Barcoprefectura_6: 495422526
-      Barcoprefectura_7: 896595643
+      Signos_0: -1306309040
+      Signos_1: -875474986
+      Signos_2: -773801536
+      Signos_3: -1894223419
+      Signos_4: -142664886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

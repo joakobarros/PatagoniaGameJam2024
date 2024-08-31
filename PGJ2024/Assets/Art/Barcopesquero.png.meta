@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0079b39b6d6ea3f47b8147b60db9300d
+guid: 41bf80e256785f64bb8d24b744b378ce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,11 +110,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barcoprefectura_0
+      name: Barcopesquero_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -124,18 +124,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d96fb020d852f44b9a90f33ef78bd1
-      internalID: 983741794
+      spriteID: c269051def4680940a5aa44308cff60e
+      internalID: -1875252046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_1
+      name: Barcopesquero_1
       rect:
         serializedVersion: 2
         x: 75
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -145,18 +145,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b15872516efa944eba06e3c08b8cdc8
-      internalID: 813536298
+      spriteID: 508500fc0ab3c9c419846d06776f13b2
+      internalID: -594667845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_2
+      name: Barcopesquero_2
       rect:
         serializedVersion: 2
         x: 150
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -166,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0da144accf7860f49891f101a547effb
-      internalID: -1544019285
+      spriteID: 72f67281e0cd5284a81a6692a670dbd1
+      internalID: 1633114453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_3
+      name: Barcopesquero_3
       rect:
         serializedVersion: 2
         x: 225
-        y: 2
+        y: 88
         width: 75
         height: 75
       alignment: 0
@@ -187,18 +187,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a8a1dca9c7cd6543aad1ebcfaf1211c
-      internalID: -1286074050
+      spriteID: 7bda7e8241b95a84cb8f3e6917ed61b1
+      internalID: -1260810670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_4
+      name: Barcopesquero_4
       rect:
         serializedVersion: 2
-        x: 300
-        y: 2
+        x: 0
+        y: 13
         width: 75
         height: 75
       alignment: 0
@@ -208,18 +208,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a015a6f85e3c24ba70ceea448afbcd
-      internalID: -322400435
+      spriteID: a086081c802633744a1bfa9516c6d0c1
+      internalID: -108506353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_5
+      name: Barcopesquero_5
       rect:
         serializedVersion: 2
-        x: 375
-        y: 2
+        x: 75
+        y: 13
         width: 75
         height: 75
       alignment: 0
@@ -229,18 +229,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ea5a54d977d6d4aa17f28a903b914a
-      internalID: -53539415
+      spriteID: 33ba99922e3fbdb46be112e1410c719f
+      internalID: 1621205007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_6
+      name: Barcopesquero_6
       rect:
         serializedVersion: 2
-        x: 450
-        y: 2
+        x: 150
+        y: 13
         width: 75
         height: 75
       alignment: 0
@@ -250,18 +250,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed023048aa7aec04cb951817e74241d0
-      internalID: 495422526
+      spriteID: d66ba4d435c6fa4438ee1f65ceffbdf7
+      internalID: -1927577167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barcoprefectura_7
+      name: Barcopesquero_7
       rect:
         serializedVersion: 2
-        x: 525
-        y: 2
+        x: 225
+        y: 13
         width: 75
         height: 75
       alignment: 0
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc4a9030aa2dc83458ddb7b7bed532a5
-      internalID: 896595643
+      spriteID: 55dcff0a072bd464f816cf7c5e557a06
+      internalID: -89018529
       vertices: []
       indices: 
       edges: []
@@ -288,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barcoprefectura_0: 983741794
-      Barcoprefectura_1: 813536298
-      Barcoprefectura_2: -1544019285
-      Barcoprefectura_3: -1286074050
-      Barcoprefectura_4: -322400435
-      Barcoprefectura_5: -53539415
-      Barcoprefectura_6: 495422526
-      Barcoprefectura_7: 896595643
+      Barcopesquero_0: -1875252046
+      Barcopesquero_1: -594667845
+      Barcopesquero_2: 1633114453
+      Barcopesquero_3: -1260810670
+      Barcopesquero_4: -108506353
+      Barcopesquero_5: 1621205007
+      Barcopesquero_6: -1927577167
+      Barcopesquero_7: -89018529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
