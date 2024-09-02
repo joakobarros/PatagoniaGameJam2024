@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    private string nombreEscena;
+
     public void Menu()
     {
-        SceneManager.LoadScene("Menu");
+        nombreEscena = "Menu";
+        StartCoroutine(PasoEscena());
     }
 
     public void Creditos()
@@ -18,5 +21,16 @@ public class LevelManager : MonoBehaviour
     public void Jugar()
     {
         SceneManager.LoadScene("Nivel1");
+    }
+
+    public void Controles()
+    {
+        SceneManager.LoadScene("Controles");
+    }
+
+    IEnumerator PasoEscena()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(nombreEscena);
     }
 }

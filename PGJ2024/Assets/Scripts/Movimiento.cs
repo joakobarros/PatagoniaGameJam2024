@@ -9,6 +9,8 @@ public class Movimiento : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
+    private bool aLaVista;
+    public GameObject bocina;
 
     void Start()
     {
@@ -24,10 +26,30 @@ public class Movimiento : MonoBehaviour
         movement.y =Input.GetAxisRaw("Vertical");
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            bocina.SetActive(true);
+            aLaVista=true;
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            bocina.SetActive(false);
+            aLaVista=false;
+        }
     }
 
     private void FixedUpdate() 
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnTriggerStay2D(Collider2D other) 
+    {
+        if (other.CompareTag("Pesquero") && aLaVista)
+        {
+            other.GetComponent<Enemigo>().Huida();
+        }    
     }
 }
