@@ -11,6 +11,7 @@ public class Movimiento : MonoBehaviour
     private Animator animator;
     private bool aLaVista;
     public GameObject bocina;
+    public int Pescadores;
 
     void Start()
     {
@@ -49,7 +50,8 @@ public class Movimiento : MonoBehaviour
     {
         if (other.CompareTag("Pesquero") && aLaVista)
         {
-            other.GetComponent<Enemigo>().Huida();
+            other.GetComponent<MaquinaEstados>().Volver(true);
+
         }    
     }
 }

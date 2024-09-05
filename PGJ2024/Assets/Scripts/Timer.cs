@@ -15,6 +15,8 @@ public class Timer : MonoBehaviour
     {
         if (elapsedTime <= 0)
         {
+            GameObject[] calamares = GameObject.FindGameObjectsWithTag("Calamares"); 
+            Record.Instance.SetCalamares(calamares.Length);
             SceneManager.LoadScene("Victoria");
         }
         elapsedTime -= Time.deltaTime;
