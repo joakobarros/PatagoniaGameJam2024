@@ -13,6 +13,7 @@ public class MaquinaEstados : MonoBehaviour
     [SerializeField] private int currentWaypoint;
     public GameObject admiracion;
     public Animator animator;
+    private AudioSource audioSource;
 
     private void Start() 
     {
@@ -20,6 +21,7 @@ public class MaquinaEstados : MonoBehaviour
         currentWaypoint = Random.Range(0, waypoints.Length);
         huida = GameObject.Find("Barconodriza").GetComponent<Transform>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update() 
@@ -74,6 +76,7 @@ public class MaquinaEstados : MonoBehaviour
             StartCoroutine(Atencion());
             Record.Instance.Setpescadores();
             espantado = asustado;
+            audioSource.Play();
         }
         animator.SetBool("escapando", true);
         huyendo = true;
@@ -90,6 +93,7 @@ public class MaquinaEstados : MonoBehaviour
             animator.SetTrigger("derecha");
         }
         pescando = true;
+        audioSource.Stop();
     }
 
     IEnumerator Atencion()

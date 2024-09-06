@@ -10,10 +10,12 @@ public class Calamari : MonoBehaviour
     public int pescadores;
     public float tiempo = 10f;
     private Derrota derrota;
+    private AudioSource audioSouerce;
 
     private void Start() 
     {
-        derrota = GameObject.Find("Derrota").GetComponent<Derrota>();    
+        derrota = GameObject.Find("Derrota").GetComponent<Derrota>();   
+        audioSouerce = GetComponent<AudioSource>(); 
     }
 
     private void Update() 
@@ -39,6 +41,7 @@ public class Calamari : MonoBehaviour
         Debug.Log("pescando");
         pescadores++;
         pescando = true;
+        audioSouerce.Play();
     }
 
     IEnumerator Pescar()

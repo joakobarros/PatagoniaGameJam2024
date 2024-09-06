@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ba6bc19f783ce484abf4c2ce1d2c06eb
+guid: f152d9077a8c3fc4aad9f17b72f4d5f6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 70
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mar_0
+      name: Uibotones_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 91
-        width: 72
-        height: 72
+        y: 26
+        width: 152
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecc2a737c24aaa24c9055333d4056d81
-      internalID: 1691720699
+      spriteID: 10a95ab9f3c2e0240a1b158b725af308
+      internalID: -872193915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mar_1
+      name: Uibotones_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 91
-        width: 72
-        height: 72
+        x: 152
+        y: 26
+        width: 152
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceae57dd827208042b24283f1f3e9c3f
-      internalID: -125664497
+      spriteID: 7e5ca1a9287254a4b93b89ca922f2859
+      internalID: -1580319153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mar_2
+      name: Uibotones_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 91
-        width: 72
-        height: 72
+        x: 304
+        y: 26
+        width: 152
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c3d9777471dc1042a37e6152a6390b2
-      internalID: -131724031
+      spriteID: 0dbaf5f06f3efb942b5966e752abb3a2
+      internalID: 289984713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uibotones_3
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 26
+        width: 152
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d00b9001cee7248971e75087df6c7c
+      internalID: 297835618
       vertices: []
       indices: 
       edges: []
@@ -183,9 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mar_0: 1691720699
-      mar_1: -125664497
-      mar_2: -131724031
+      Uibotones_0: -872193915
+      Uibotones_1: -1580319153
+      Uibotones_2: 289984713
+      Uibotones_3: 297835618
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

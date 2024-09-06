@@ -12,6 +12,7 @@ public class Movimiento : MonoBehaviour
     private bool aLaVista;
     public GameObject bocina;
     public int Pescadores;
+    public AudioSource audioSouerce;
 
     void Start()
     {
@@ -31,6 +32,7 @@ public class Movimiento : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             bocina.SetActive(true);
+            audioSouerce.Play();
             aLaVista=true;
         }
 
