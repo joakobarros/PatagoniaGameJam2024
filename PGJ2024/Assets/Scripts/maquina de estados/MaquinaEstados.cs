@@ -33,7 +33,7 @@ public class MaquinaEstados : MonoBehaviour
             //Debug.Log("Cambio direccion");
         //}
 
-        if (!huyendo)
+        if (!huyendo && waypoints[currentWaypoint] != null)
         {
             if (transform.position != waypoints[currentWaypoint].transform.position)
             {

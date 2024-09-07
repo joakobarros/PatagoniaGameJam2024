@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     private string nombreEscena;
+    public AudioSource audioSource;
 
     public void Menu()
     {
@@ -15,22 +16,26 @@ public class LevelManager : MonoBehaviour
 
     public void Creditos()
     {
-        SceneManager.LoadScene("Creditos");
+        nombreEscena = "Creditos";
+        StartCoroutine(PasoEscena());
     }
 
     public void Jugar()
     {
-        SceneManager.LoadScene("Nivel1");
+        nombreEscena = "Nivel1";
+        StartCoroutine(PasoEscena());
     }
 
     public void Controles()
     {
-        SceneManager.LoadScene("Controles");
+        nombreEscena = "Controles";
+        StartCoroutine(PasoEscena());
     }
 
     IEnumerator PasoEscena()
-    {
-        yield return new WaitForSeconds(2f);
+    {   
+        audioSource.Play();
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(nombreEscena);
     }
 }
