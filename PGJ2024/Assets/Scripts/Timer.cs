@@ -11,13 +11,11 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timerText;
     public float elapsedTime;
     private bool endGame = false;
-    private AudioSource stinger;
+    private bool ultimosDiez = false;
+    public AudioSource stinger;
     public AudioSource musicBox;
+    public AudioSource ultimosSegs;
 
-    private void Start() 
-    {
-        stinger = GetComponent<AudioSource>();    
-    }
 
     // Update is called once per frame
     void Update()
@@ -34,6 +32,13 @@ public class Timer : MonoBehaviour
             
         }
 
+        if (elapsedTime <= 10 && !ultimosDiez)
+        {
+            ultimosDiez = true;
+            ultimosSegs.Play();
+            Debug.Log("sape");
+        }
+
         if (elapsedTime > 0)
         {
             elapsedTime -= Time.deltaTime;
@@ -47,6 +52,7 @@ public class Timer : MonoBehaviour
     IEnumerator FinalJuego()
     {
         musicBox.Stop();
+        ultimosSegs.Stop();
         stinger.Play();
         GameObject[] calamares = GameObject.FindGameObjectsWithTag("Calamares"); 
         Record.Instance.SetCalamares(calamares.Length);
